@@ -17,6 +17,8 @@ void setup() {
  delay(2000);
  Base.write(90);
  delay(2000);
+ Base.write(180);
+ delay(2000);
  
  Base.attach(motorderecha);//el motor el mimnimo de grados es 47
  Base.write(47);
